@@ -32,6 +32,13 @@ public class ClassRunner {
         }
 
 
+        intMySet.remove(1);
+
+        System.out.println("T - integer");
+        System.out.println("size = " + intMySet.size());
+        for (Integer val: intMySet) {
+            System.out.println(val);
+        }
 
 
     }
